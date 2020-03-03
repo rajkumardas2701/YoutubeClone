@@ -1,0 +1,283 @@
+
+html {
+    height: auto;
+    width: 100%;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    z-index: 1;
+  }
+  
+  .navbar_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10%;
+    padding-right: 20px;
+    margin-left: 5px;
+  }
+  
+  #menu_icon {
+    margin-left: 10px;
+    height: 25px;
+  }
+  
+  #youtube_icon {
+    margin-left: 20px;
+    height: 25px;
+  }
+  
+  .searchArea {
+    display: flex;
+    width: 45%;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #searchInput {
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 60px;
+    font-size: medium;
+    padding-left: 10px;
+    border: 1px solid gray;
+  }
+  
+  #searchButton {
+    margin-left: 0;
+    padding-left: 0;
+    color: lightgrey;
+    height: 100%;
+    width: 60px;
+    border: 1px solid gray;
+    border-left: none;
+  }
+  
+  #searchButton:hover {
+    color: black;
+    background-color: #c6c6c6;
+  }
+  
+  #navbar_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hoverIcon {
+    margin-right: 5%;
+    height: 25px;
+  }
+  
+  #signinButton {
+    background-color: lightseagreen;
+    max-width: 100%;
+  }
+  
+  #centerPart {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    height: 800px;
+    background-color: white;
+    top: 10%;
+  }
+  
+  .mainVid {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 78%;
+    height: 400px;
+  }
+  
+  .belowVid {
+    position: absolute;
+    width: 78%;
+    top: 400px;
+  }
+  
+  .likeShare {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #btnShare {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    justify-content: flex-end;
+  }
+  
+  #views {
+    justify-content: flex-start;
+    width: 50%;
+  }
+  
+  #likeshareRight {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    margin-top: 8px;
+    width: 50%;
+  }
+  
+  #Like {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+  }
+  
+  #Dislike {
+    height: 13px;
+    width: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+  
+  .likeNum {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .DislikeNum {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  hr.line {
+    border-top: 1px solid black;
+    width: 100%;
+  }
+  
+  .vidDescription {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  
+  .channel {
+    display: flex;
+    width: 100%;
+  }
+  
+  .subCount {
+    display: flex;
+  }
+  
+  .channelName {
+    margin-top: 0;
+  }
+  
+  .channelSubs {
+    margin-top: -15px;
+  }
+  
+  #btnSubscribe {
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: 80px;
+  }
+  
+  .avatar {
+    vertical-align: middle;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .description {
+    margin: 2% 0 0 14%;
+  }
+  
+  #rightPane {
+    position: absolute;
+    right: 15%;
+    width: 20%;
+    top: 8%;
+  }
+  
+  .thumbnails {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .fl {
+    display: flex;
+    width: 100%;
+  }
+  
+  #UpNext {
+    align-items: flex-start;
+    width: 50%;
+    height: 50px;
+  }
+  
+  .videos {
+    display: flex;
+    border: gray;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .vid1 {
+    align-self: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    height: 70%;
+  }
+  
+  .vidDesc {
+    font-family: 'Roboto', 'arial', sans-serif;
+    font-size: 70%;
+    color: gray;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .autoPlay {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    margin-right: 10%;
+  }
+  
+  .tog {
+    width: 20%;
+    height: 50px;
+  }
+  
+  .AP {
+    justify-content: center;
+  }
+  

@@ -123,7 +123,7 @@ nav {
 
 .likeShare {
   display: flex;
-  justify-content: flex-start;
+justify-content: flex-start;
 }
 
 #btnShare {

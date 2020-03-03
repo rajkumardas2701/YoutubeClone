@@ -110,9 +110,9 @@ nav {
   position: absolute;
   left: 0;
   top: 0;
-	width: 80%;
-	height: 50%;
-	border: 0;
+  width: 80%;
+  height: 50%;
+  border: 0;
 }
 
 .belowVid {
@@ -224,69 +224,69 @@ hr.line {
   right: 17%;
   width: 18%;
 	top: 7%;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .fl {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 #UpNext {
   align-items: flex-start;
   width: 60%;
-	height: auto;
-	top: 0;
+  height: auto;
+  top: 0;
 }
 
 .videos {
   display: block;
   border: gray;
-	width: 100%;
-	height: 50%;
-	align-items: flex-start;
-	flex-direction: column;
+  width: 100%;
+  height: 50%;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .vidSection {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .vid1 {
   width: 50%;
-	height: 50%;
-	padding: 5px 5px 5px 0;
+  height: 50%;
+  padding: 5px 5px 5px 0;
 }
 
 .vidDesc {
   font-family: 'Roboto', 'arial', sans-serif;
   font-size: 90%;
   color: gray;
-	padding: 5px 0 5px 5px;
+  padding: 5px 0 5px 5px;
   width: 50%;
   height: auto;
 }
 
 .autoPlay {
   display: flex;
-	width: 50%;
-	align-items: flex-start;
-	justify-content: flex-start;
-	flex-direction: row;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .AP {
-	position: absolute;
-	right: 13%;
-	width: auto;
+  position: absolute;
+  right: 13%;
+  width: auto;
 }
 
 .tog {
-	position: absolute;
-	right: 1%;
-	width: 12%;
+  position: absolute;
+  right: 1%;
+  width: 12%;
   height: 50px;
 }

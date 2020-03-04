@@ -99,10 +99,9 @@ nav {
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
-  width: 50%;
-  left: 20%;
-  height: 800px;
-  background-color: white;
+  width: 60%;
+  left: 10%;
+  height: 100%;
   top: 10%;
 }
 
@@ -110,15 +109,15 @@ nav {
   position: absolute;
   left: 0;
   top: 0;
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: 70%;
   border: 0;
 }
 
 .belowVid {
   position: absolute;
-  width: 78%;
-  top: 400px;
+  width: 100%;
+  top: 72%;
 }
 
 .likeShare {
@@ -127,49 +126,76 @@ nav {
 }
 
 #btnShare {
-  height: 15px;
-  width: 15px;
+  height: 40%;
+  width: 40%;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 10px;
-  justify-content: flex-end;
 }
 
 #views {
   justify-content: flex-start;
   width: 50%;
+  color: grey;
+  font-weight: 400;
 }
 
 #likeshareRight {
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  right: 0;
-  margin-top: 8px;
+  right: 0%;
+  box-sizing: border-box;
   width: 50%;
+  height: 15%;
+  align-items: center;
+  margin-right: 10px;
 }
 
 #Like {
-  height: 15px;
-  width: 15px;
+  height: 35%;
+  width: 35%;
+}
+
+.countLD {
   margin-left: 5px;
+  align-self: center;
+  font-family: 'Roboto', 'arial', sans-serif;
+  font-size: 80%;
 }
 
 #Dislike {
-  height: 13px;
-  width: 15px;
-  margin-left: 5px;
-  margin-top: 3px;
+  height: 35%;
+  width: 35%;
 }
 
 .likeNum {
   margin-left: 10px;
   margin-right: 10px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .DislikeNum {
   margin-left: 10px;
   margin-right: 10px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShareBtn {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 hr.line {
@@ -190,10 +216,11 @@ hr.line {
 
 .subCount {
   display: flex;
+  flex-direction: column;
 }
 
 .channelName {
-  margin-top: 0;
+  margin-top: 8%;
 }
 
 .channelSubs {
@@ -203,25 +230,27 @@ hr.line {
 #btnSubscribe {
   position: absolute;
   right: 0;
-  height: 20px;
-  width: 80px;
+  margin-top: 1%;
+  width: 10%;
+  height: 12%;
 }
 
 .avatar {
   vertical-align: middle;
-  width: 10%;
-  height: 10%;
+  width: 5%;
+  height: 5%;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 2%;
+  align-self: center;
 }
 
 .description {
-  margin: 2% 0 0 14%;
+  margin: 1% 40% 0 7%;
 }
 
 #rightPane {
   position: absolute;
-  right: 17%;
+  right: 10%;
   width: 18%;
   top: 7%;
   display: flex;

@@ -1,6 +1,7 @@
-Youtube Clone
+<h1>Youtube Clone</h1>
 This project is a replica of youtube website which gives you access to numerous informative videos.
-![screenshot](https://github.com/rajkumardas2701/YoutubeClone/blob/feature-1/img/screenshot.png)
+
+![screenshot](https://github.com/rajkumardas2701/YoutubeClone/blob/feature-1/img/screenshot1.png)
 
 Description of the project:
 ===========================
@@ -23,7 +24,7 @@ Authors:
 
 Demo:
 =======
-https://rawcdn.githack.com/rajkumardas2701/YoutubeClone/f8e35739f959ccbb7ff30e9c2520dc3037fde0d9/index.html
+https://rawcdn.githack.com/rajkumardas2701/YoutubeClone/a56cbe4e7fc3f1c1616c039bf4cb5ead4a7096d1/index.html
 
 Show your support:
 ====================

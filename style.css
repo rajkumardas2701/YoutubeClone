@@ -1,0 +1,321 @@
+
+html {
+  height: auto;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.navbar_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 10%;
+  padding-right: 20px;
+  margin-left: 5px;
+}
+
+#menu_icon {
+  margin-left: 10px;
+  height: 25px;
+}
+
+#youtube_icon {
+  margin-left: 20px;
+  height: 25px;
+}
+
+.searchArea {
+  display: flex;
+  width: 45%;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#searchInput {
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 60px;
+  font-size: medium;
+  padding-left: 10px;
+  border: 1px solid gray;
+}
+
+#searchButton {
+  margin-left: 0;
+  padding-left: 0;
+  color: lightgrey;
+  height: 100%;
+  width: 60px;
+  border: 1px solid gray;
+  border-left: none;
+}
+
+#searchButton:hover {
+  color: black;
+  background-color: #c6c6c6;
+}
+
+#navbar_right {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hoverIcon {
+  margin-right: 5%;
+  height: 25px;
+}
+
+#signinButton {
+  background-color: lightseagreen;
+  max-width: 100%;
+}
+
+#centerPart {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  width: 60%;
+  left: 10%;
+  height: 100%;
+  top: 10%;
+}
+
+.mainVid {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  border: 0;
+}
+
+.belowVid {
+  position: absolute;
+  width: 100%;
+  top: 72%;
+}
+
+.likeShare {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#btnShare {
+  height: 40%;
+  width: 40%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#views {
+  justify-content: flex-start;
+  width: 50%;
+  color: grey;
+  font-weight: 400;
+}
+
+#likeshareRight {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0%;
+  box-sizing: border-box;
+  width: 50%;
+  height: 15%;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#Like {
+  height: 35%;
+  width: 35%;
+}
+
+.countLD {
+  margin-left: 5px;
+  align-self: center;
+  font-family: 'Roboto', 'arial', sans-serif;
+  font-size: 80%;
+}
+
+#Dislike {
+  height: 35%;
+  width: 35%;
+}
+
+.likeNum {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.DislikeNum {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShareBtn {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+hr.line {
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+.vidDescription {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.channel {
+  display: flex;
+  width: 100%;
+}
+
+.subCount {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelName {
+  margin-top: 8%;
+}
+
+.channelSubs {
+  margin-top: -15px;
+}
+
+#btnSubscribe {
+  position: absolute;
+  right: 0;
+  margin-top: 1%;
+  width: 10%;
+  height: 12%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 5%;
+  height: 5%;
+  border-radius: 50%;
+  margin-right: 2%;
+  align-self: center;
+}
+
+.description {
+  margin: 1% 40% 0 7%;
+}
+
+#rightPane {
+  position: absolute;
+  right: 10%;
+  width: 18%;
+  top: 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fl {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#UpNext {
+  align-items: flex-start;
+  width: 60%;
+  height: auto;
+  top: 0;
+}
+
+.videos {
+  display: block;
+  border: gray;
+  width: 100%;
+  height: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.vidSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.vid1 {
+  width: 50%;
+  height: 50%;
+  padding: 5px 5px 5px 0;
+}
+
+.vidDesc {
+  font-family: 'Roboto', 'arial', sans-serif;
+  font-size: 90%;
+  color: gray;
+  padding: 5px 0 5px 5px;
+  width: 50%;
+  height: auto;
+}
+
+.autoPlay {
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.AP {
+  position: absolute;
+  right: 13%;
+  width: auto;
+}
+
+.tog {
+  position: absolute;
+  right: 1%;
+  width: 12%;
+  height: 50px;
+}
